@@ -32,5 +32,4 @@ If you like our work and use the code or models for your research, please cite o
 ```
 
 ## Acknowledgments
-This code is heavily borrowed from [LtC-MSDA](https://github.com/ChrisAllenMing/LtC-MSDA).  
-We also thank Jiayuan Mao for his [Synchronized Batch Normalization code](https://github.com/VisionLearningGroup/VisionLearningGroup.github.io/tree/master/M3SDA/code_MSDA_digit).
+This code is heavily borrowed from [LtC-MSDA](https://github.com/ChrisAllenMing/LtC-MSDA) and [M3SDA](https://github.com/VisionLearningGroup/VisionLearningGroup.github.io/tree/master/M3SDA/code_MSDA_digit).  
