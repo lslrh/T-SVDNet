@@ -10,4 +10,27 @@
 pip install -r requirements.txt
 ```
 ## Data Preparation
-Download [Digits-Five](https://drive.google.com/open?id=1A4RJOFj4BJkmliiEL7g9WzNIDUHLxfmm), [DomainNet](http://ai.bu.edu/M3SDA/) and [PACS](http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017).
+Download [Digits-Five](https://drive.google.com/open?id=1A4RJOFj4BJkmliiEL7g9WzNIDUHLxfmm), [DomainNet](http://ai.bu.edu/M3SDA/) and [PACS](https://github.com/MachineLearning2020/Homework3-PACS).
+
+## Training 
+To train reproduce the performance, simply run:
+```bash
+python train.py --use_target --save_model --target $target_domain$ \
+                --checkpoint_dir $save_dir$
+```
+
+##Citation
+If you like our work and use the code or models for your research, please cite our work as follows.
+```
+@inproceedings{li2021t,
+  title={T-SVDNet: Exploring High-Order Prototypical Correlations for Multi-Source Domain Adaptation},
+  author={Li, Ruihuang and Jia, Xu and He, Jianzhong and Chen, Shuaijun and Hu, Qinghua},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={9991--10000},
+  year={2021}
+}
+```
+
+## Acknowledgments
+This code is heavily borrowed from [LtC-MSDA](https://github.com/ChrisAllenMing/LtC-MSDA).  
+We also thank Jiayuan Mao for his [Synchronized Batch Normalization code](https://github.com/VisionLearningGroup/VisionLearningGroup.github.io/tree/master/M3SDA/code_MSDA_digit).
