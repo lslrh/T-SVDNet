@@ -1,0 +1,5 @@
+scipy==1.7.1
+pymars==0.7.4
+numpy==1.19.2
+torchvision==0.10.1
+matplotlib==3.4.3
