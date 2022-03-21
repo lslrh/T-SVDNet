@@ -1,5 +1,5 @@
 # T-SVDNet: Exploring High-Order Prototypical Correlations for Multi-Source Domain Adaptation (ICCV 2021, official Pytorch implementation)
-![Teaser](docs/overview.png)
+![Teaser](docs/framework_.png)
 ### The paper is available here: [Arxiv](https://arxiv.org/abs/2107.14447)
 <!-- <br> -->
 ## Abstract
